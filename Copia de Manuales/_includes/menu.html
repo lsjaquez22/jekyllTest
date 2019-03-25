@@ -1,0 +1,24 @@
+<dl>
+  {% for item in site.data.menu %}
+  <dt >
+      <a>
+          {{ item.name }}
+      </a>
+      {% if item.name == "Manuales"%}
+      
+        {% for post in site.posts %}
+          <dd>
+            <a href="{{ post.url }}" >{{ post.name }}</a>
+          </dd>
+        {% endfor %}
+      {% endif %}
+  </dt>
+  {% endfor %}
+  
+</dl>
+<div >
+  <img src="assets/images/Logo_Samurai.png"  class="logo">
+</div>
+
+
+

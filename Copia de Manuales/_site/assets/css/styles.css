@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif; }
+
+.content {
+  padding-left: 25%;
+  text-align: justify;
+  padding-right: 5%;
+  background-color: #FFFFFF; }
+
+.contacto {
+  background: #f4cc04;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  overflow-y: hidden;
+  bottom: 0%;
+  left: 0;
+  position: fixed; }
+
+.logo {
+  height: 15%;
+  position: fixed;
+  width: 10%;
+  bottom: 5%;
+  padding-left: 6%; }
+
+.menuPrin {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 23%;
+  background-color: #633979;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px; }
+
+dt a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 150%;
+  color: #FFFFFF;
+  display: block;
+  text-align: left; }
+
+dd a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 150%;
+  color: #FFFFFF;
+  display: block;
+  text-align: left; }
+
+dt a:hover:not(.active) {
+  color: #F7CD00; }
+
+dd a:hover:not(.active) {
+  color: #F7CD00; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  padding-top: 5%;
+  color: #633979;
+  text-align: center; }
+
+li a {
+  color: #633979; }
+
+li a:hover:not(.active) {
+  color: #F7CD00; }
+
+ul {
+  list-style: none; }
+
+li p {
+  color: #633979; }
+
+.topnav-centered a {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none; }
+
+.active {
+  color: #6A3E9E;
+  padding: 2%; }
+
+@media only screen and (max-width: 900px) {
+  dd a {
+    font-size: 90%; }
+
+  dt a {
+    font-size: 100%; } }
+@media only screen and (max-width: 1050px) {
+  .logo {
+    height: 11%;
+    position: fixed;
+    width: 10%;
+    bottom: 5%;
+    padding-left: 6%; } }
+@media only screen and (max-height: 500px) {
+  .logo {
+    height: 13%;
+    position: fixed;
+    width: 7%;
+    bottom: 5%;
+    padding-left: 8%; } }
+@media only screen and (max-height: 300px) {
+  .logo {
+    height: 13%;
+    position: fixed;
+    width: 5%;
+    bottom: 5%;
+    padding-left: 8%; } }
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 8%;
+    position: fixed;
+    width: 10%;
+    bottom: 5%;
+    padding-left: 6%; } }

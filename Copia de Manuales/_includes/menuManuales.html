@@ -1,0 +1,22 @@
+<dl>
+    {% for item in site.data.menuManuales %}
+    {% if item.name == "Manuales"%}
+    <dt >
+        <a href="{{ item.link }}">
+            {{ item.name }}
+        </a>
+    </dt>
+    {% endif %}
+    {% if item.name != "Manuales"%}
+    <dd>
+        <a href="{{ item.link }}">
+            {{ item.name }}
+        </a>
+    </dd>
+    {% endif %}
+    {% endfor %}
+</dl>
+<div >
+    <img src="../../../../assets/images/Logo_Samurai.png"  class="logo">
+</div>
+  

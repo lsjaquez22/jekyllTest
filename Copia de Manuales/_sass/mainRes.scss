@@ -1,0 +1,67 @@
+@media only screen and (max-width: 900px) {
+    dd a{
+        
+        font-size: 90%;
+        
+    }
+
+    dt a{
+        
+        font-size: 100%;
+        
+        
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .logo{
+
+        height: 11%;
+        position: fixed;
+        width: 10%;
+        bottom: 5%;
+        padding-left: 6%;
+    
+    }
+}
+  
+@media only screen and (max-height: 500px) {
+
+    .logo{
+
+        height: 13%;
+        position: fixed;
+        width: 7%;
+        bottom: 5%;
+        padding-left: 8%;
+    
+    }
+}
+
+@media only screen and (max-height: 300px) {
+
+    .logo{
+
+        height: 13%;
+        position: fixed;
+        width: 5%;
+        bottom: 5%;
+        padding-left: 8%;
+    
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo{
+
+        height: 8%;
+        position: fixed;
+        width: 10%;
+        bottom: 5%;
+        padding-left: 6%;
+    
+    }
+}

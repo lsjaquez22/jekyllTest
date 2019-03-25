@@ -1,0 +1,8 @@
+- name: Manuales
+  link: /
+- name: Introduccion
+  link: "#introducción"
+- name: Manual
+  link: "#manual"
+- name: Contacto
+  link: "#contacto"
